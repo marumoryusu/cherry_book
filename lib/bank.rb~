@@ -1,7 +1,0 @@
-require './lib/deep_freezable'
-
-class Bank
-  extend DeepFreezable
-
-  CURRENCIES = DeepFreezable({'Japan' => 'yen', 'US' => 'dollar', 'India' => 'rupee'})
-end
